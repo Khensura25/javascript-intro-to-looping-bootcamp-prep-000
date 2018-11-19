@@ -23,9 +23,20 @@ function whileLoop(num) {
   
 }
 
-function doWhileLoop(array){
-  do {
+var i = 0;
 
+function incrementVariable() {
+  i = i + 1;
+  
+}
+
+
+function doWhileLoop(array) {
+  do {
+array.pop(i)
+incrementVariable()
     
-  } while();
+  } while(array.length > 0 && incrementVariable());
+  
+  return array;
 }
