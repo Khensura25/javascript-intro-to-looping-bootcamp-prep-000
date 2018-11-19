@@ -25,6 +25,7 @@ function whileLoop(num) {
 
 function doWhileLoop(array){
   do {
+
     
-  } while
+  } while();
 }
